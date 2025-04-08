@@ -6,7 +6,7 @@ Phishing survey data from: https://archive.ics.uci.edu/ml/datasets/Phishing+Webs
 
 ### Instructions
 
-cleaning_data.R was used to import and clean the data.
+cleaning_data.R was used to import and clean the data. 
 
 Run scripts with Python 3.5:
 
