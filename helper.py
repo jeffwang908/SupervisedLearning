@@ -1,7 +1,7 @@
 def plot_validation_curve(clf, X_train, y_train, param_name, param_range, x_line):
     RandInd = np.random.choice(len(X_train), 1000)
     Rtrain = X_train.iloc[RandInd, :]
-    Rlabels = y_train[RandInd]
+    Rlabels = y_train[RandInd] 
     train_scores, test_scores = validation_curve(clf, Rtrain, Rlabels, param_name=param_name,
                                                  param_range=param_range, cv=5, scoring="accuracy", n_jobs=1)
     train_score_mean = np.mean(train_scores, axis=1)
