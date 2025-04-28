@@ -1,4 +1,4 @@
-#Cleaning Data
+#Cleaning Data 
 #Original dataset found at https://archive.ics.uci.edu/ml/datasets/Phishing+Websites
 x <- read.csv('PhishingWebsitesData.csv')
 y <- na.omit(x)
